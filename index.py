@@ -8,7 +8,7 @@ root = Tk()
 root.title("OPEN World")
 root.geometry("700x400")
 
-# Function to open Google Maps with the selected location
+# Function to open Google Maps123 with the selected location
 def open_map():
    location = country_var.get().replace(' ', '+')
    if location:  # Ensure a country is selected
@@ -48,7 +48,7 @@ def update_time():
 # Function to handle country selection (Updates time & opens map)
 def handle_country_selection(event):
    update_time()  # Start live time update
-   open_map()  # Open Google Maps
+   open_map()  # Open Google Maps   
 
 # Function to update the country options based on selected continent
 def update_countries(event):
